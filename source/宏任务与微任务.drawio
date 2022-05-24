@@ -1,1 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2022-05-24T05:59:46.273Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="01Tzj9Bcu7Zy_fOu-PTi" version="18.1.1" type="github"><diagram id="cPZTPYuyqxxZ5XNj8B2s" name="第 1 页">dZHBEoIgEIafhrvCVHY2y0snD50Z2YQZdB2k0Xr6dICMsU4s3/4/y+4SlrfTxfBeXlGAJjQRE2EnQmmasGw+FvJ0ZMeODjRGCS9aQaVeEJyePpSAIRJaRG1VH8Mauw5qGzFuDI6x7I46rtrzBjagqrne0psSVjqa0cPKS1CNDJXTve+v5UHsOxkkFzh+IVYQlhtE66J2ykEvwwtzcb7zn+znYwY6+8MwB+vb8yXaECve</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-24T06:07:33.458Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="bU4_b6Twc9hzK2SPrVp6" version="18.1.1" type="github">
+  <diagram id="cPZTPYuyqxxZ5XNj8B2s" name="第 1 页">
+    <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QQ-1s_3Bz6LFpWNVN3Y0-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QQ-1s_3Bz6LFpWNVN3Y0-1" target="QQ-1s_3Bz6LFpWNVN3Y0-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ-1s_3Bz6LFpWNVN3Y0-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ-1s_3Bz6LFpWNVN3Y0-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QQ-1s_3Bz6LFpWNVN3Y0-2" target="QQ-1s_3Bz6LFpWNVN3Y0-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ-1s_3Bz6LFpWNVN3Y0-2" value="执行同步任务&lt;br&gt;遇见微任务就推送到微任务队列&lt;br&gt;遇同步任务就推送到宏任务队列" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="306" y="180" width="216" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ-1s_3Bz6LFpWNVN3Y0-7" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QQ-1s_3Bz6LFpWNVN3Y0-4" target="QQ-1s_3Bz6LFpWNVN3Y0-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ-1s_3Bz6LFpWNVN3Y0-9" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QQ-1s_3Bz6LFpWNVN3Y0-4" target="QQ-1s_3Bz6LFpWNVN3Y0-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ-1s_3Bz6LFpWNVN3Y0-4" value="判断微任务队列&lt;br&gt;是否为空" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="356" y="310" width="116" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ-1s_3Bz6LFpWNVN3Y0-12" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QQ-1s_3Bz6LFpWNVN3Y0-6" target="QQ-1s_3Bz6LFpWNVN3Y0-11">
+          <mxGeometry x="-0.4474" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QQ-1s_3Bz6LFpWNVN3Y0-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QQ-1s_3Bz6LFpWNVN3Y0-6" target="QQ-1s_3Bz6LFpWNVN3Y0-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ-1s_3Bz6LFpWNVN3Y0-6" value="判断宏任务队列&lt;br&gt;是否为空" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="356" y="520" width="116" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ-1s_3Bz6LFpWNVN3Y0-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QQ-1s_3Bz6LFpWNVN3Y0-8" target="QQ-1s_3Bz6LFpWNVN3Y0-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ-1s_3Bz6LFpWNVN3Y0-8" value="取出第一个&lt;br&gt;微任务并执行" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ-1s_3Bz6LFpWNVN3Y0-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QQ-1s_3Bz6LFpWNVN3Y0-11" target="QQ-1s_3Bz6LFpWNVN3Y0-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ-1s_3Bz6LFpWNVN3Y0-11" value="&lt;span style=&quot;&quot;&gt;取出第一个&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;宏任务并执行&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QQ-1s_3Bz6LFpWNVN3Y0-13" value="结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
