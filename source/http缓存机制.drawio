@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-20T07:34:43.310Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="90FL58iQEGMC83IkcQBJ" version="18.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-10T16:51:02.965Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="pat9cYwVjcqn-MCBPbQD" version="20.2.3" type="github">
   <diagram id="i0dMTA6VLadqCn9wmKdx" name="Page-1">
-    <mxGraphModel dx="1221" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="1092" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,94 +8,94 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="x1Ykzr9agQ8RogaUUEwv-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;spacingRight=6;spacingLeft=6;spacingBottom=6;" parent="1" vertex="1">
-          <mxGeometry x="900" y="60" width="120" height="60" as="geometry" />
+          <mxGeometry x="650" y="60" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jVPOnOZcVX5uaDC0uj-C-10" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" source="x1Ykzr9agQ8RogaUUEwv-8" target="jVPOnOZcVX5uaDC0uj-C-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="x1Ykzr9agQ8RogaUUEwv-8" value="判断该请求是否有缓存" style="rhombus;whiteSpace=wrap;html=1;rounded=1;spacingLeft=6;spacingBottom=6;spacingRight=6;" parent="1" vertex="1">
-          <mxGeometry x="882" y="170" width="156" height="120" as="geometry" />
+          <mxGeometry x="630" y="175" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="jVPOnOZcVX5uaDC0uj-C-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" source="jVPOnOZcVX5uaDC0uj-C-3" target="jVPOnOZcVX5uaDC0uj-C-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jVPOnOZcVX5uaDC0uj-C-3" value="请求服务器" style="whiteSpace=wrap;html=1;rounded=1;spacingLeft=6;spacingBottom=6;spacingRight=6;" parent="1" vertex="1">
-          <mxGeometry x="1170" y="200" width="120" height="60" as="geometry" />
+          <mxGeometry x="920" y="205" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jVPOnOZcVX5uaDC0uj-C-6" value="否" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="x1Ykzr9agQ8RogaUUEwv-8" target="jVPOnOZcVX5uaDC0uj-C-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="980" y="310" as="sourcePoint" />
-            <mxPoint x="1030" y="260" as="targetPoint" />
+            <mxPoint x="730" y="310" as="sourcePoint" />
+            <mxPoint x="780" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jVPOnOZcVX5uaDC0uj-C-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="jVPOnOZcVX5uaDC0uj-C-9" target="jVPOnOZcVX5uaDC0uj-C-18" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="715" y="430" as="targetPoint" />
+            <mxPoint x="465" y="430" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="715" y="710" />
+              <mxPoint x="465" y="710" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="jVPOnOZcVX5uaDC0uj-C-22" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=default;" parent="jVPOnOZcVX5uaDC0uj-C-21" vertex="1" connectable="0">
-          <mxGeometry x="-0.8409" y="2" relative="1" as="geometry">
+          <mxGeometry relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jVPOnOZcVX5uaDC0uj-C-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="jVPOnOZcVX5uaDC0uj-C-9" target="jVPOnOZcVX5uaDC0uj-C-33" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="450" y="230.0000000000001" as="targetPoint" />
+            <mxPoint x="200" y="230.0000000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jVPOnOZcVX5uaDC0uj-C-32" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=default;" parent="jVPOnOZcVX5uaDC0uj-C-24" vertex="1" connectable="0">
-          <mxGeometry x="-0.1474" y="-6" relative="1" as="geometry">
+          <mxGeometry y="-10" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jVPOnOZcVX5uaDC0uj-C-9" value="&lt;span style=&quot;&quot;&gt;浏览器根据Cache-Control&amp;nbsp;或 Expires 判断请求是否命中强缓存&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;spacingLeft=6;spacingBottom=6;spacingRight=6;" parent="1" vertex="1">
-          <mxGeometry x="640" y="155" width="150" height="150" as="geometry" />
+          <mxGeometry x="390" y="160" width="150" height="150" as="geometry" />
         </mxCell>
         <mxCell id="jVPOnOZcVX5uaDC0uj-C-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" source="jVPOnOZcVX5uaDC0uj-C-11" target="jVPOnOZcVX5uaDC0uj-C-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jVPOnOZcVX5uaDC0uj-C-11" value="服务器响应请求&lt;br&gt;浏览器记录响应头及响应体内容&lt;br&gt;Cache-Control、Expires&lt;br&gt;Last-modified、Etag" style="whiteSpace=wrap;html=1;rounded=1;spacingLeft=6;spacingBottom=6;spacingRight=6;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1130" y="340" width="200" height="100" as="geometry" />
+          <mxGeometry x="880" y="340" width="200" height="100" as="geometry" />
         </mxCell>
         <mxCell id="jVPOnOZcVX5uaDC0uj-C-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" source="jVPOnOZcVX5uaDC0uj-C-16" target="jVPOnOZcVX5uaDC0uj-C-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jVPOnOZcVX5uaDC0uj-C-16" value="浏览器存入缓存" style="whiteSpace=wrap;html=1;align=center;rounded=1;spacingLeft=6;spacingBottom=6;spacingRight=6;" parent="1" vertex="1">
-          <mxGeometry x="1170" y="540" width="120" height="60" as="geometry" />
+          <mxGeometry x="920" y="540" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jVPOnOZcVX5uaDC0uj-C-18" value="返回缓存" style="whiteSpace=wrap;html=1;rounded=1;spacingLeft=6;spacingBottom=6;spacingRight=6;" parent="1" vertex="1">
-          <mxGeometry x="1170" y="680" width="120" height="60" as="geometry" />
+          <mxGeometry x="920" y="680" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jVPOnOZcVX5uaDC0uj-C-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="jVPOnOZcVX5uaDC0uj-C-33" target="jVPOnOZcVX5uaDC0uj-C-25" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="380" y="300.0000000000001" as="sourcePoint" />
+            <mxPoint x="130" y="300.0000000000001" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jVPOnOZcVX5uaDC0uj-C-30" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="jVPOnOZcVX5uaDC0uj-C-25" target="jVPOnOZcVX5uaDC0uj-C-11" edge="1">
           <mxGeometry x="-0.7403" relative="1" as="geometry">
-            <mxPoint x="520" y="480" as="targetPoint" />
+            <mxPoint x="270" y="480" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jVPOnOZcVX5uaDC0uj-C-35" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" source="jVPOnOZcVX5uaDC0uj-C-25" target="jVPOnOZcVX5uaDC0uj-C-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jVPOnOZcVX5uaDC0uj-C-25" value="服务器判断是否命中协商缓存" style="rhombus;whiteSpace=wrap;html=1;rounded=1;spacingLeft=6;spacingBottom=6;spacingRight=6;" parent="1" vertex="1">
-          <mxGeometry x="310" y="410" width="140" height="140" as="geometry" />
+        <mxCell id="jVPOnOZcVX5uaDC0uj-C-25" value="服务器判断是否&lt;br&gt;命中协商缓存" style="rhombus;whiteSpace=wrap;html=1;rounded=1;spacingLeft=6;spacingBottom=6;spacingRight=6;" parent="1" vertex="1">
+          <mxGeometry x="65" y="410" width="140" height="140" as="geometry" />
         </mxCell>
         <mxCell id="jVPOnOZcVX5uaDC0uj-C-33" value="&lt;span style=&quot;&quot;&gt;浏览器携带请求头&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;If-Modified-Since&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;和 If-None-Match&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;请求服务器&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=default;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="295" y="187.5" width="170" height="85" as="geometry" />
+          <mxGeometry x="50" y="190" width="170" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="jVPOnOZcVX5uaDC0uj-C-34" value="服务器返回304状态" style="whiteSpace=wrap;html=1;rounded=1;spacingLeft=6;spacingBottom=6;spacingRight=6;" parent="1" vertex="1">
-          <mxGeometry x="320" y="680" width="120" height="60" as="geometry" />
+        <mxCell id="jVPOnOZcVX5uaDC0uj-C-34" value="&lt;span style=&quot;&quot;&gt;服务器响应请求并&lt;/span&gt;返回304状态码&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;浏览器更新最新的缓存相关的响应头的值到本地&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;spacingLeft=6;spacingBottom=6;spacingRight=6;align=left;spacing=15;" parent="1" vertex="1">
+          <mxGeometry x="50" y="665.27" width="170" height="89.47" as="geometry" />
         </mxCell>
         <mxCell id="jVPOnOZcVX5uaDC0uj-C-36" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="jVPOnOZcVX5uaDC0uj-C-34" target="jVPOnOZcVX5uaDC0uj-C-18" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="670" y="480" as="sourcePoint" />
-            <mxPoint x="720" y="430" as="targetPoint" />
+            <mxPoint x="420" y="480" as="sourcePoint" />
+            <mxPoint x="470" y="430" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
